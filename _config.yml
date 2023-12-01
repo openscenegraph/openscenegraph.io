@@ -18,18 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: OpenSceneGraph
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  The OpenSceneGraph is an open source high performance 3D graphics toolkit, used by application developers in fields such as visual simulation, games, virtual reality, scientific visualization and modelling.
+  Written entirely in Standard C++ and OpenGL it runs on all Windows platforms, OSX, GNU/Linux, IRIX, Solaris, HP-Ux, AIX and FreeBSD operating systems.
+  The OpenSceneGraph is now well established as a robust scene graph technology, used widely in the vis-sim, space, scientific, oil-gas, games and virtual reality industries.
+  However, for new projects, we recommend the OSG's successor project, VulkanSceneGraph for never-before-attainable performance and access to the latest hardware features with the same battle-tested DNA as the OSG.
+baseurl: "/osg-website-replacement" # the subpath of your site, e.g. /blog
+url: "https://anyoldname3.github.io/osg-website-replacement" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: OpenSceneGraph
+github_username:  openscenegraph
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
