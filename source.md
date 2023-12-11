@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Source
-permalink: /source/
+permalink: /source
 ---
 
 ## Official repositories

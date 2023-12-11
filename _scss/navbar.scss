@@ -1,0 +1,40 @@
+.site-nav {
+    .page-link, .page-group {
+        display: inline-block;
+    }
+
+    .page-link:not(:last-child) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-link:last-child {
+        margin-left: 10px;
+    }
+
+    .page-group .page-link:last-child {
+        margin-right: 10px;
+    }
+
+    .page-group {
+        > .page-link {
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: color-mix(in srgb, black 10%, transparent);
+            backdrop-filter: blur(2px);
+
+            .group-contents {
+                display: block;
+            }
+        }
+
+        .group-contents {
+            display: none;
+            position: fixed;
+            background-color: color-mix(in srgb, black 10%, transparent);
+            backdrop-filter: blur(2px);
+        }
+    }
+}

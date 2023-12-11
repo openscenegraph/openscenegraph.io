@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-permalink: /archive/
+permalink: /archive
 ---
 
 Before this website replaced its predecessor, an archive of the original site was created.
