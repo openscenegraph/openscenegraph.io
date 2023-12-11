@@ -22,8 +22,8 @@
         }
 
         &:hover {
-            background-color: color-mix(in srgb, black 10%, transparent);
-            backdrop-filter: blur(2px);
+            background-color: rgba($color: #ccc, $alpha: 0.5);
+            backdrop-filter: blur(4px);
 
             .group-contents {
                 display: block;
@@ -33,8 +33,8 @@
         .group-contents {
             display: none;
             position: fixed;
-            background-color: color-mix(in srgb, black 10%, transparent);
-            backdrop-filter: blur(2px);
+            background-color: rgba($color: #ccc, $alpha: 0.5);
+            backdrop-filter: blur(4px);
         }
     }
 }
