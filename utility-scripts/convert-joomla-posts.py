@@ -65,6 +65,53 @@ fieldUniqueValues = {}
 
 htmlSerialiser = html5lib.serializer.HTMLSerializer()
 
+def convertHtml(html, originalUrl):
+    textTree = html5lib.parse(html)
+    for anchor in textTree.iter('{http://www.w3.org/1999/xhtml}a'):
+        if anchor.get('href') != None:
+            anchor.set('href', urlConvert(originalUrl, anchor.get('href')))
+    for img in textTree.iter('{http://www.w3.org/1999/xhtml}img'):
+        if img.get('src') != None:
+            img.set('src', urlConvert(originalUrl, img.get('src')))
+    modifiedHtml = htmlSerialiser.render(html5lib.getTreeWalker("etree")(textTree))
+
+    markdown = markdownify(modifiedHtml)
+
+    def generateGallery(match):
+        galleryPath = match.group('path')
+        if not galleryPath.endswith('/'):
+            galleryPath += '/'
+        galleryUrl = urljoin("https://www.openscenegraph.com/images/gallery/", galleryPath)
+        albumImages = {}
+        galleryMarkdown = "\n\n"
+        for key in urlMap:
+            if key.startswith(galleryUrl) and mimeMap[key].startswith('image/'):
+                imageUrl = urljoin('https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', urlMap[key])
+                galleryRelative = key.removeprefix(galleryUrl)
+                split = urlparse(galleryRelative).path.rsplit('/', 1)
+                if len(split) > 1:
+                    albumName = split[0]
+                    if not albumName in albumImages:
+                        albumImages[albumName] = []
+                    albumImages[albumName].append(imageUrl)
+                else:
+                    galleryMarkdown += f"![{galleryRelative}]({imageUrl})\n\n"
+        for album in sorted(albumImages.keys()):
+            albumImages[album].sort()
+            galleryMarkdown += f'### {album}\n\n'
+            for imageUrl in albumImages[album]:
+                galleryMarkdown += f'[<img src="{imageUrl}" width="200px" height="200px" style="object-fit: contain; margin: 10px"/>]({imageUrl})'
+            galleryMarkdown += "\n"
+
+        return galleryMarkdown
+    return re.sub('\\{AG\\}(?P<path>[^{}]+)\\{/AG\\}', generateGallery, markdown)
+
+def getFirstImage(html, originalUrl):
+    textTree = html5lib.parse(html)
+    for img in textTree.iter('{http://www.w3.org/1999/xhtml}img'):
+        if img.get('src') != None:
+            return urlConvert(originalUrl, img.get('src'))
+
 for post in posts:
     print(f"id: {post['id']}")
     print(f"title: {post['title']}")
@@ -100,48 +147,13 @@ for post in posts:
                 'permalink': f"/archive/{categoryDict[post['catid']]['path']}/{post['id']}-{post['alias']}:output_ext",
                 'categories': ["archive"] + list(PurePosixPath(categoryDict[post['catid']]['path']).parts),
                 'title': post['title'],
-                'archive': True
+                'archive': True,
+                'imported_introtext': convertHtml(post['introtext'], originalUrl),
+                'imported_introtext_image': getFirstImage(post['introtext'], originalUrl)
             }), file=file)
             print("---", file=file)
-            textTree = html5lib.parse(post['fulltext'] if len(post['fulltext']) > 0 else post['introtext'])
-            for anchor in textTree.iter('{http://www.w3.org/1999/xhtml}a'):
-                if anchor.get('href') != None:
-                    anchor.set('href', urlConvert(originalUrl, anchor.get('href')))
-            for img in textTree.iter('{http://www.w3.org/1999/xhtml}img'):
-                if img.get('src') != None:
-                    img.set('src', urlConvert(originalUrl, img.get('src')))
-            modifiedHtml = htmlSerialiser.render(html5lib.getTreeWalker("etree")(textTree))
-
-            markdown = markdownify(modifiedHtml)
-
-            def generateGallery(match):
-                galleryPath = match.group('path')
-                if not galleryPath.endswith('/'):
-                    galleryPath += '/'
-                galleryUrl = urljoin("https://www.openscenegraph.com/images/gallery/", galleryPath)
-                albumImages = {}
-                galleryMarkdown = "\n\n"
-                for key in urlMap:
-                    if key.startswith(galleryUrl) and mimeMap[key].startswith('image/'):
-                        imageUrl = urljoin('https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', urlMap[key])
-                        galleryRelative = key.removeprefix(galleryUrl)
-                        split = urlparse(galleryRelative).path.rsplit('/', 1)
-                        if len(split) > 1:
-                            albumName = split[0]
-                            if not albumName in albumImages:
-                                albumImages[albumName] = []
-                            albumImages[albumName].append(imageUrl)
-                        else:
-                            galleryMarkdown += f"![{galleryRelative}]({imageUrl})\n\n"
-                for album in sorted(albumImages.keys()):
-                    albumImages[album].sort()
-                    galleryMarkdown += f'### {album}\n\n'
-                    for imageUrl in albumImages[album]:
-                        galleryMarkdown += f'[<img src="{imageUrl}" width="200px" height="200px" style="object-fit: contain; margin: 10px"/>]({imageUrl})'
-                    galleryMarkdown += "\n"
-
-                return galleryMarkdown
-            markdown = re.sub('\\{AG\\}(?P<path>[^{}]+)\\{/AG\\}', generateGallery, markdown)
+            
+            markdown = convertHtml(post['fulltext'] if len(post['fulltext']) > 0 else post['introtext'], originalUrl)
 
             print(markdown, file=file)
 

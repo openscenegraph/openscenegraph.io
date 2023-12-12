@@ -4,6 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
+imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Thumbs/capture00394.png)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/virtual-reality/25-foundation-of-the-hellenic-world.html)
+
+
+
+  '
+imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Thumbs/capture00394.png
 joomla_data:
   access: '1'
   alias: foundation-of-the-hellenic-world

@@ -4,6 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
+imported_introtext: '[![](https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect1.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/76-digital-city-of-beijing-with-real-time-illumination.html)
+
+
+
+  '
+imported_introtext_image: https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect1.jpg
 joomla_data:
   access: '1'
   alias: digital-city-of-beijing-with-real-time-illumination

@@ -4,6 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
+imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/209-objexxsisame.html)
+
+
+
+  '
+imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png
 joomla_data:
   access: '1'
   alias: objexxsisame

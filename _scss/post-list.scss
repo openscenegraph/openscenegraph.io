@@ -1,0 +1,13 @@
+.grid-post-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    justify-content: center;
+
+    .grid-post {
+        width: 240px;
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
+}

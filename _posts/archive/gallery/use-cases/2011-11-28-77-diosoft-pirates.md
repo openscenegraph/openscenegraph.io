@@ -4,6 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
+imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/77-diosoft-pirates.html)
+
+
+
+  '
+imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg
 joomla_data:
   access: '1'
   alias: diosoft-pirates

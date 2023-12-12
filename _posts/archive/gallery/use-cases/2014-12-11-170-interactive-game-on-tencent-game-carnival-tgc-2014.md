@@ -4,6 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
+imported_introtext: '![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg)
+
+
+
+  '
+imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg
 joomla_data:
   access: '1'
   alias: interactive-game-on-tencent-game-carnival-tgc-2014
