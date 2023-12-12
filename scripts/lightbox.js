@@ -20,7 +20,7 @@ function is_vimeolink(url,el) {
 
                 el.addEventListener("click", function(event) {
                     event.preventDefault();
-                    document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+el.getAttribute('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>';
+                    document.getElementById('lightbox').innerHTML = '<a id="lightbox-close"></a><a id="lightbox-next">&rsaquo;</a><a id="lightbox-prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+el.getAttribute('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>';
                     document.getElementById('lightbox').style.display = 'block';
 
                     setGallery(this);
@@ -38,39 +38,39 @@ function is_vimeolink(url,el) {
     xmlhttp.send();
 }
 function setGallery(el) {
-    var elements = document.body.querySelectorAll(".gallery");
+    var elements = document.body.querySelectorAll(".active-lightbox-gallery");
     elements.forEach(element => {
-        element.classList.remove('gallery');
+        element.classList.remove('active-lightbox-gallery');
 	});
 	if(el.closest('ul, p')) {
 		var link_elements = el.closest('ul, p').querySelectorAll("a[class*='lightbox-']");
 		link_elements.forEach(link_element => {
-			link_element.classList.remove('current');
+			link_element.classList.remove('active-lightbox-current');
 		});
 		link_elements.forEach(link_element => {
 			if(el.getAttribute('href') == link_element.getAttribute('href')) {
-				link_element.classList.add('current');
+				link_element.classList.add('active-lightbox-current');
 			}
 		});
 		if(link_elements.length>1) {
-			document.getElementById('lightbox').classList.add('gallery');
+			document.getElementById('lightbox').classList.add('active-lightbox-gallery');
 			link_elements.forEach(link_element => {
-				link_element.classList.add('gallery');
+				link_element.classList.add('active-lightbox-gallery');
 			});
 		}
 		var currentkey;
-		var gallery_elements = document.querySelectorAll('a.gallery');
+		var gallery_elements = document.querySelectorAll('a.active-lightbox-gallery');
 		Object.keys(gallery_elements).forEach(function (k) {
-			if(gallery_elements[k].classList.contains('current')) currentkey = k;
+			if(gallery_elements[k].classList.contains('active-lightbox-current')) currentkey = k;
 		});
 		if(currentkey==(gallery_elements.length-1)) var nextkey = 0;
 		else var nextkey = parseInt(currentkey)+1;
 		if(currentkey==0) var prevkey = parseInt(gallery_elements.length-1);
 		else var prevkey = parseInt(currentkey)-1;
-		document.getElementById('next').addEventListener("click", function() {
+		document.getElementById('lightbox-next').addEventListener("click", function() {
 			gallery_elements[nextkey].click();
 		});
-		document.getElementById('prev').addEventListener("click", function() {
+		document.getElementById('lightbox-prev').addEventListener("click", function() {
 			gallery_elements[prevkey].click();
 		});
 	}
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //remove the clicked lightbox
     document.getElementById('lightbox').addEventListener("click", function(event) {
-        if(event.target.id != 'next' && event.target.id != 'prev'){
+        if(event.target.id != 'lightbox-next' && event.target.id != 'lightbox-prev'){
             this.innerHTML = '';
             document.getElementById('lightbox').style.display = 'none';
         }
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+this.getAttribute('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div>';
+            document.getElementById('lightbox').innerHTML = '<a id="lightbox-close"></a><a id="lightbox-next">&rsaquo;</a><a id="lightbox-prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+this.getAttribute('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+            document.getElementById('lightbox').innerHTML = '<a id="lightbox-close"></a><a id="lightbox-next">&rsaquo;</a><a id="lightbox-prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
