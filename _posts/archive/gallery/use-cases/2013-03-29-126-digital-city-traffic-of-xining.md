@@ -58,6 +58,7 @@ joomla_data:
   urls: ''
   version: '4'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/126-digital-city-traffic-of-xining:output_ext
 title: Digital city & traffic of Xining
 

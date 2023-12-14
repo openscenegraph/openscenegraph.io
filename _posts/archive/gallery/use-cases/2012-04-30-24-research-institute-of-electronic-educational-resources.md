@@ -46,6 +46,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '13'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/24-research-institute-of-electronic-educational-resources:output_ext
 title: RIEER
 

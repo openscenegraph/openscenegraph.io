@@ -50,6 +50,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '4'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/80-nasa-blue-marble:output_ext
 title: Nasa Blue Marble
 

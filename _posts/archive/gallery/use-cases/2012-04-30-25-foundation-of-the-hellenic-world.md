@@ -90,6 +90,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '11'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/25-foundation-of-the-hellenic-world:output_ext
 title: Foundation of the Hellenic World
 

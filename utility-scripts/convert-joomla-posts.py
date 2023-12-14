@@ -144,6 +144,7 @@ for post in posts:
             print("---", file=file)
             print(yaml.dump({
                 'joomla_data': post,
+                'layout' : 'post',
                 'permalink': f"/archive/{categoryDict[post['catid']]['path']}/{post['id']}-{post['alias']}:output_ext",
                 'categories': ["archive"] + list(PurePosixPath(categoryDict[post['catid']]['path']).parts),
                 'title': post['title'],

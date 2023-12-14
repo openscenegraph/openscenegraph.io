@@ -50,6 +50,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '11'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/76-digital-city-of-beijing-with-real-time-illumination:output_ext
 title: Digital city of Beijing
 

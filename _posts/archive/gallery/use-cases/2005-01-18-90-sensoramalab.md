@@ -52,6 +52,7 @@ joomla_data:
   urls: ''
   version: '2'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/90-sensoramalab:output_ext
 title: SensoramaLab
 

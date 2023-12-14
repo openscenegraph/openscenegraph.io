@@ -58,6 +58,7 @@ joomla_data:
   urls: ''
   version: '2'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/88-magrathea-engine:output_ext
 title: Magrathea Engine
 

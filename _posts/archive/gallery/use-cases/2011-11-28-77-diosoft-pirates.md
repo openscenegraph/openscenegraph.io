@@ -73,6 +73,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '8'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/77-diosoft-pirates:output_ext
 title: DIOSoft Pirates
 

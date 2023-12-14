@@ -50,6 +50,7 @@ joomla_data:
   urls: ''
   version: '2'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/89-j3tech-j3reality:output_ext
 title: J3Tech - J3Reality
 

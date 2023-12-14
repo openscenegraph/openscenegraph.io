@@ -79,6 +79,7 @@ joomla_data:
   urls: ''
   version: '9'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/209-objexxsisame:output_ext
 title: ObjexxSISAME
 

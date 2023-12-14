@@ -64,6 +64,7 @@ joomla_data:
   urls: ''
   version: '1'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/170-interactive-game-on-tencent-game-carnival-tgc-2014:output_ext
 title: Interactive game on Tencent Game Carnival (TGC) 2014
 

@@ -219,6 +219,7 @@ joomla_data:
   urls: '{"urla":null,"urlatext":"","targeta":"","urlb":null,"urlbtext":"","targetb":"","urlc":null,"urlctext":"","targetc":""}'
   version: '18'
   xreference: ''
+layout: post
 permalink: /archive/gallery/screenshots/1-screenshots:output_ext
 title: Screenshots
 

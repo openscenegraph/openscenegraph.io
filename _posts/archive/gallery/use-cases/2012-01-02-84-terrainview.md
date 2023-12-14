@@ -47,6 +47,7 @@ joomla_data:
   urls: ''
   version: '2'
   xreference: ''
+layout: post
 permalink: /archive/gallery/use-cases/84-terrainview:output_ext
 title: TerrainView
 
