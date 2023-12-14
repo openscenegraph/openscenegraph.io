@@ -59,3 +59,4 @@ sass:
 #   - vendor/ruby/
 exclude:
   - utility-scripts/
+  - vendor/
