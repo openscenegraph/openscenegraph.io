@@ -23,10 +23,15 @@
           {%- for headerGroup in groupedPages -%}
             {%- if headerGroup.size > 1 -%}
               <span class="page-group">
-                <a class="page-link" href="#">{{ headerGroup.name }}</a>
+                {%- assign groupIndex = headerGroup.items | where_exp: "item", "item.title == headerGroup.name" -%}
+                {%- if groupIndex -%}
+                  <a class="page-link" href="{{ groupIndex.url | relative_url }}">{{ headerGroup.name }}</a>
+                {%- else -%}
+                  <a class="page-link dummy" href="#">{{ headerGroup.name }}</a>
+                {%- endif -%}
                 <div class="group-contents">
                   {%- for my_page in headerGroup.items -%}
-                    {%- if my_page.title -%}
+                    {%- if my_page.title and my_page.title != headerGroup.name -%}
                     <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                     {%- endif -%}
                   {%- endfor -%}
