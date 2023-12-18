@@ -57,9 +57,9 @@ TerrainView is the free 3D viewer of ViewTec for interactive visualization of 3D
 
 
 
-![vt_tvg_1.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TerrainView/vt_tvg_1.jpg)
-
 ![vt_tv_1.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TerrainView/vt_tv_1.jpg)
+
+![vt_tvg_1.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TerrainView/vt_tvg_1.jpg)
 
 ![vt_tvg_2.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TerrainView/vt_tvg_2.jpg)
 

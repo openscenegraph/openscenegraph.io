@@ -70,9 +70,9 @@ At www.j3tech.it you can download a DEMO version, with some restrictions.
 
 ![j3Reality2.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality2.jpg)
 
-![j3Reality4.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality4.jpg)
-
 ![j3Reality3.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality3.jpg)
+
+![j3Reality4.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality4.jpg)
 
 
 

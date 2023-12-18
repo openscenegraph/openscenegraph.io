@@ -69,9 +69,9 @@ In next phase this is going to grow to at least 3 visualisation channels giving 
 
 
 
-![soko_03.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/SOKO/soko_03.jpg)
-
 ![soko_01.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/SOKO/soko_01.jpg)
+
+![soko_03.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/SOKO/soko_03.jpg)
 
 ![soko_04.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/SOKO/soko_04.jpg)
 

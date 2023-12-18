@@ -63,9 +63,9 @@ These screenshots were taken from the slideshow3D (an OSG based presentation too
 
 
 
-![bluemarble_06.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)
-
 ![bluemarble_01.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_01.jpg)
+
+![bluemarble_06.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)
 
 ![bluemarble_09.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_09.jpg)
 
