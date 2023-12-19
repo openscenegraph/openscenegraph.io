@@ -11,7 +11,10 @@ While the [www.osgbooks.com](www.osgbooks.com) website is no longer operating, t
     {%- for post in site.categories.books -%}
         <div class="grid-post">
             <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-            {{ post.imported_introtext | markdownify }}
+            {{ post.excerpt }}
+            {% if post.excerpt.size != post.content.size %}
+                <a href="{{ post.url | relative_url }}">Read more...</a>
+            {% endif %}
         </div>
     {%- endfor -%}
 </div>
