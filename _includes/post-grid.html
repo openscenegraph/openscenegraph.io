@@ -1,0 +1,11 @@
+<div class="grid-post-list">
+    {%- for post in site.categories[include.post_category] -%}
+        <div class="grid-post">
+            <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            {{ post.excerpt }}
+            {% if post.excerpt.size != post.content.size %}
+                <a href="{{ post.url | relative_url }}">Read more...</a>
+            {% endif %}
+        </div>
+    {%- endfor -%}
+</div>
