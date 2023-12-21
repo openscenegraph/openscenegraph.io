@@ -11,6 +11,7 @@ Doxygen docs are available [here]({% link documentation/doxygen.md %}).
 ## Guides
 
 Some have been written, but most were so long ago that links have rotted and they didn't cover best-practice ten years ago.
+Some can be accessed on the [old site archive]({% link archive.md %}).
 
 ## Books
 
