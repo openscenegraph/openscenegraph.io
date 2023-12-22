@@ -1,0 +1,14 @@
+<ul class="image-album">
+    {% for image in include.image_list %}
+        <li>
+            <a href="{% link {{ image.file }} %}">
+                <figure>
+                    <img src="{% link {{ image.file }} %}"/>
+                    {% if image.label %}
+                        <figcaption>{{ image.label }}</figcaption>
+                    {% endif %}
+                </figure>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

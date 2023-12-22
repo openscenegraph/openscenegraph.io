@@ -2,6 +2,8 @@
 layout: page
 title: Screenshots
 
+# Do not add to this list.
+# Make a new post in gallery/_posts
 archive_screenshots:
   General:
     images:
@@ -250,6 +252,24 @@ archive_screenshots:
 Screen shots of OpenSceneGraph demos and end user applications that use the OpenSceneGraph
 
 ---
+
+{% for post in site.categories.gallery %}
+{% if post.archive %}
+  {% continue %}
+{% endif %}
+{% if post.show_link_in_gallery %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+{% else %}
+### {{ post.title }}
+{% endif %}
+
+{{ post.excerpt }}
+{% if post.show_link_in_gallery %}
+[Click here for full article]({{ post.url | relative_url }})
+{% endif %}
+
+{% include image-gallery.html image_list=post.images %}
+{% endfor %}
 
 {% for album in page.archive_screenshots -%}
 {%- assign albumName = album | first -%}
