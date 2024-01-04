@@ -2,12 +2,21 @@
     {% for image in include.image_list %}
         <li>
             <a href="{% link {{ image.file }} %}">
-                <figure>
-                    <img src="{% link {{ image.file }} %}"/>
-                    {% if image.label %}
-                        <figcaption>{{ image.label }}</figcaption>
-                    {% endif %}
-                </figure>
+                {% unless image.is_video %}
+                    <figure>
+                        <img src="{% link {{ image.file }} %}"/>
+                        {% if image.label %}
+                            <figcaption>{{ image.label }}</figcaption>
+                        {% endif %}
+                    </figure>
+                {% else %}
+                    <figure>
+                        <img src="{% link {{ image.file | video_thumbnail }} %}"/>
+                        {% if image.label %}
+                            <figcaption>{{ image.label }}</figcaption>
+                        {% endif %}
+                    </figure>
+                {% endunless %}
             </a>
         </li>
     {% endfor %}
