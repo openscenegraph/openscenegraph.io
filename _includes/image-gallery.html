@@ -11,7 +11,9 @@
                     </figure>
                 {% else %}
                     <figure>
-                        <img src="{% link {{ image.file | video_thumbnail }} %}"/>
+                        <div class="video-thumbnail">
+                            <img src="{% link {{ image.file | video_thumbnail }} %}"/>
+                        </div>
                         {% if image.label %}
                             <figcaption>{{ image.label }}</figcaption>
                         {% endif %}
