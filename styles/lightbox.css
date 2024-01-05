@@ -20,6 +20,10 @@
         max-height: 1200px;
     }
 }
+#lightbox .img video {
+    width: 100%;
+    height: 100%;
+}
 #lightbox span {display: block; position: fixed; bottom: 13px; height: 1.5em; line-height: 1.4em; width: 100%; text-align: center; color: white; text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,

@@ -6,6 +6,10 @@ function is_imagelink(url) {
     var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
     return (url.match(p)) ? true : false;
 }
+function is_videolink(url) {
+    var p = /([a-z\-_0-9\/\:\.]*\.(mp4|webm))/i;
+    return (url.match(p)) ? true : false;
+}
 function is_vimeolink(url,el) {
     var id = false;
     var xmlhttp = new XMLHttpRequest();
@@ -88,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         var url = element.getAttribute('href');
         if(url) {
+            var useTitle = false;
             if(url.indexOf('vimeo') !== -1 && !element.classList.contains('no-lightbox')) {
                 is_vimeolink(url,element);
             }
@@ -97,6 +102,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             if(is_imagelink(url) && !element.classList.contains('no-lightbox')) {
                 element.classList.add('lightbox-image');
+                useTitle = true;
+            }
+            if(is_videolink(url) && !element.classList.contains('no-lightbox')) {
+                element.classList.add('lightbox-video');
+                useTitle = true;
+            }
+            if(useTitle) {
                 var figcaption = element.querySelector("figcaption")
                 if (figcaption) {
                     element.setAttribute('title', figcaption.innerHTML);
@@ -137,6 +149,18 @@ document.addEventListener("DOMContentLoaded", function() {
         element.addEventListener("click", function(event) {
             event.preventDefault();
             document.getElementById('lightbox').innerHTML = '<a id="lightbox-close"></a><a id="lightbox-next">&rsaquo;</a><a id="lightbox-prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+            document.getElementById('lightbox').style.display = 'block';
+
+            setGallery(this);
+        });
+    });
+
+    //add the video lightbox on click
+    var elements = document.querySelectorAll('a.lightbox-video');
+    elements.forEach(element => {
+        element.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.getElementById('lightbox').innerHTML = '<a id="lightbox-close"></a><a id="lightbox-next">&rsaquo;</a><a id="lightbox-prev">&lsaquo;</a><div class="img" title="'+this.getAttribute('title')+'" ><video src="'+this.getAttribute('href')+'" autoplay controls muted loop /></div><span>'+this.getAttribute('title')+'</span>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
