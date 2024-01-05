@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/84-terrainview.html)
+imported_introtext: '[![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg)](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/84-terrainview.html)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg
 joomla_data:
   access: '1'
   alias: j3tech-j3reality
@@ -66,13 +66,13 @@ At www.j3tech.it you can download a DEMO version, with some restrictions.
 
 
 
-![j3Reality1.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg)
+![j3Reality1.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality1.jpg)
 
-![j3Reality2.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality2.jpg)
+![j3Reality2.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality2.jpg)
 
-![j3Reality3.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality3.jpg)
+![j3Reality3.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality3.jpg)
 
-![j3Reality4.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality4.jpg)
+![j3Reality4.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/J3Reality/j3Reality4.jpg)
 
 
 

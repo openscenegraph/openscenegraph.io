@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/126-digital-city-traffic-of-xining.html)
+imported_introtext: '[![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg)](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/126-digital-city-traffic-of-xining.html)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg
 joomla_data:
   access: '1'
   alias: digital-city-traffic-of-xining
@@ -69,30 +69,30 @@ Rendered with VDSM & EffectCompositor. It shows the entire city of Xining, China
 The final city models size is ~23GB, designed with four-level paged LODs. It includes 215 main blocks of the Xining city, about 200 km2.
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_1.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_1.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_2.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_2.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_3.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_3.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_4.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_4.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_5.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_5.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_6.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_6.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_7.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_7.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_8.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_8.jpg)
 
 

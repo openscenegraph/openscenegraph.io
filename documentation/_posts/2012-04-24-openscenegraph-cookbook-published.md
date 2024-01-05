@@ -6,7 +6,7 @@ title: 'OpenSceneGraph Cookbook Published'
 
 ---
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/openscenegraph3cookbook.jpg){: style="float: left" }
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/openscenegraph3cookbook.jpg){: style="float: left" }
 Packt Publishing have published a new OpenSceneGraph book: OpenSceneGraph 3.0 Cookbook, written by Wang Rui and Qian Xuelei.
 Exactly 100 recipes are introduced in this book over the course of 9 chapters.
 

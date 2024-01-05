@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg)
+imported_introtext: '![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg
 joomla_data:
   access: '1'
   alias: interactive-game-on-tencent-game-carnival-tgc-2014
@@ -78,34 +78,34 @@ Interactive game on Tencent Game Carnival (TGC) 2014. Attenders wave a real pr
 You will find difference between the original model and rendered one as below:
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare1.jpg)![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare2.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare1.jpg)![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare2.jpg)
 
 
 And more game pictures here:
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game1.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game1.jpg)
 
 
  
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game3.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game3.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game4.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game4.jpg)
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/live.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/live.jpg)
 
 
 Enjoy~~
 
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/stats.jpg)
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/stats.jpg)
 
 
  

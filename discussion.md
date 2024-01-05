@@ -18,7 +18,7 @@ Posts are organised into several categories:
 
 Prior to GitHub Discussions, OpenSceneGraph-related discussions took place elsewhere.
 * The OpenSceneGraph forums, which are no longer accessible.
-* The OpenSceneGraph mailing list, history of which is available via [this archive](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/lists.openscenegraph.org/pipermail/osg-users-openscenegraph.org/).
+* The OpenSceneGraph mailing list, history of which is available via [this archive](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/lists.openscenegraph.org/pipermail/osg-users-openscenegraph.org/).
 * The [OpenSceneGraph Google Group](https://groups.google.com/g/osg-users).
 
 There's a large corpus of past queries held within these, which may prove useful if you're having the same problem as someone else has in the past.

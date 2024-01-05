@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/209-objexxsisame.html)
+imported_introtext: '[![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png)](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/209-objexxsisame.html)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png
 joomla_data:
   access: '1'
   alias: objexxsisame
@@ -96,18 +96,18 @@ ObjexxSISAME runs on Windows, Linux, and macOS. Objexx builds OSG on Windows wi
 For more information visit <http://objexx.com/ObjexxSISAME.html>.
 
 
-![ObjexxSISAME Building Impact Model](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Building.png "ObjexxSISAME Building Impact Model")
+![ObjexxSISAME Building Impact Model](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Building.png "ObjexxSISAME Building Impact Model")
 
 
  
 
 
-![ObjexxSISAME Bridge Impact Model](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.png "ObjexxSISAME Bridge Impact Model") 
+![ObjexxSISAME Bridge Impact Model](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.png "ObjexxSISAME Bridge Impact Model") 
 
 
  
 
 
-![ObjexxSISAME Car Crash Model](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Car.png "ObjexxSISAME Car Crash Model")
+![ObjexxSISAME Car Crash Model](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Car.png "ObjexxSISAME Car Crash Model")
 
 

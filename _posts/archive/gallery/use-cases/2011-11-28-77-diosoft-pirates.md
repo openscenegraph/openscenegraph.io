@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/77-diosoft-pirates.html)
+imported_introtext: '[![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg)](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/77-diosoft-pirates.html)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/community/pirates.jpg
 joomla_data:
   access: '1'
   alias: diosoft-pirates
@@ -102,7 +102,7 @@ Contact person - leading programmer Pavlo Moloshtan <pasha at diosoft.com>.
 ### **Screenshots**
 
 
-**![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pirates/pirates-2005-06-01-01.jpg)**
+**![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pirates/pirates-2005-06-01-01.jpg)**
 
 
  

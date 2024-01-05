@@ -53,7 +53,7 @@ def urlConvert(pageUrl, targetUrl):
             return urlConvert(pageUrl, urljoin("https://www.openscenegraph.com/index.php", categoryDict[post['catid']]['path'], f"{post['id']}-{post['alias']}"))
     archiveRelative = urlMap[url_normalize(urlunparse(parsed._replace(fragment="")))]
     archiveRelative += "#" + parsed.fragment
-    return urljoin('https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', archiveRelative)
+    return urljoin('https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', archiveRelative)
 
 class PostState(enum.Enum):
     TRASHED = -2
@@ -86,7 +86,7 @@ def convertHtml(html, originalUrl):
         galleryMarkdown = "\n\n"
         for key in urlMap:
             if key.startswith(galleryUrl) and mimeMap[key].startswith('image/'):
-                imageUrl = urljoin('https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', urlMap[key])
+                imageUrl = urljoin('https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/', urlMap[key])
                 galleryRelative = key.removeprefix(galleryUrl)
                 split = urlparse(galleryRelative).path.rsplit('/', 1)
                 if len(split) > 1:

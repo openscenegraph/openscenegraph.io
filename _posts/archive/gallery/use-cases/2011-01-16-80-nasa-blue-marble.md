@@ -4,12 +4,12 @@ categories:
 - archive
 - gallery
 - use-cases
-imported_introtext: '[![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/80-nasa-blue-marble.html)
+imported_introtext: '[![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/index.php/gallery/use-cases/80-nasa-blue-marble.html)
 
 
 
   '
-imported_introtext_image: https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg
+imported_introtext_image: https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg
 joomla_data:
   access: '1'
   alias: nasa-blue-marble
@@ -63,11 +63,11 @@ These screenshots were taken from the slideshow3D (an OSG based presentation too
 
 
 
-![bluemarble_01.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_01.jpg)
+![bluemarble_01.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_01.jpg)
 
-![bluemarble_06.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)
+![bluemarble_06.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_06.jpg)
 
-![bluemarble_09.jpg](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_09.jpg)
+![bluemarble_09.jpg](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/BlueMarble/bluemarble_09.jpg)
 
 
 

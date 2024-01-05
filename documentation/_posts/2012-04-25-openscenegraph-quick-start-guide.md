@@ -6,7 +6,7 @@ title: OpenSceneGraph Quick Start Guide
 
 ---
 
-![](https://anyoldname3.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/quickstart.jpg){: style="float: left; margin-right: 10px" }
+![](https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/quickstart.jpg){: style="float: left; margin-right: 10px" }
 This book is a concise introduction to OpenSceneGraph (OSG)---the open source, cross-platform scene graph application programmer interface (API).
 OSG plays a key role in the 3D application software stack.
 It's the middleware above the lower-level OpenGL hardware abstraction layer (HAL), providing extensive higher-level rendering, I/O, and spatial organization functionality to the 3D application.
