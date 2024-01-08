@@ -12,7 +12,9 @@ module Jekyll
       site = @context.registers[:site]
       cacheRoot = File.join(site.source, ".jekyll-cache", "image_srcset")
 
-      image = MiniMagick::Image.open(path)
+      path_prefixed = path.start_with?('/') ? path : ('/' + path)
+      path_abs = site.static_files.find{|file| file.relative_path == path_prefixed }.path
+      image = MiniMagick::Image.open(path_abs)
       originalWidth = image.width
       originalHeight = image.height
 
@@ -27,7 +29,7 @@ module Jekyll
       }
 
       neededRatios.each { |ratio|
-        image = MiniMagick::Image.open(path)
+        image = MiniMagick::Image.open(path_abs)
 
         destination_rel = _generate_filename_for_ratio_width(path, ratio, width)
         destination_abs = File.join(cacheRoot, destination_rel)
@@ -36,7 +38,7 @@ module Jekyll
           site.static_files << StaticFile.new(site, cacheRoot, File.dirname(destination_rel), File.basename(destination_rel))
         end
 
-        if not File.exist?(destination_abs) or File.mtime(path) > File.mtime(destination_abs)
+        if not File.exist?(destination_abs) or File.mtime(path_abs) > File.mtime(destination_abs)
           FileUtils.mkdir_p(File.dirname(destination_abs))
           image.resize "#{(width * ratio).round()}x#{(width * originalHeight * ratio / originalHeight).round()}"
           image.write destination_abs

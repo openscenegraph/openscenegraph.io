@@ -8,7 +8,9 @@ module Jekyll
       site = @context.registers[:site]
       cacheRoot = File.join(site.source, ".jekyll-cache", "video_thumbnail")
 
-      video = FFMPEG::Movie.new(path)
+      path_prefixed = path.start_with?('/') ? path : ('/' + path)
+      path_abs = site.static_files.find{|file| file.relative_path == path_prefixed }.path
+      video = FFMPEG::Movie.new(path_abs)
 
       destination_rel = File.join("thumbnails", File.dirname(path), File.basename(path, File.extname(path)) + ".png")
       destination_abs = File.join(cacheRoot, destination_rel)
@@ -17,7 +19,7 @@ module Jekyll
         site.static_files << StaticFile.new(site, cacheRoot, File.dirname(destination_rel), File.basename(destination_rel))
       end
 
-      if not File.exist?(destination_abs) or File.mtime(path) > File.mtime(destination_abs)
+      if not File.exist?(destination_abs) or File.mtime(path_abs) > File.mtime(destination_abs)
         FileUtils.mkdir_p(File.dirname(destination_abs))
         video.screenshot(destination_abs)
       end

@@ -12,7 +12,7 @@
                 {% else %}
                     <figure>
                         <div class="video-thumbnail">
-                            <img src="{% link {{ image.file | video_thumbnail }} %}"/>
+                            <img src="{% link {{ image.file | video_thumbnail }} %}" {{ image.file | video_thumbnail | image_srcset_width, 240 }}/>
                         </div>
                         {% if image.label %}
                             <figcaption>{{ image.label }}</figcaption>
