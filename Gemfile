@@ -36,3 +36,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 gem "streamio-ffmpeg", "~> 3.0"
+
+gem "mini_magick", "~> 4.12"

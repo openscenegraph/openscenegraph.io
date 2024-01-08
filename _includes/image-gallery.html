@@ -4,7 +4,7 @@
             <a href="{% link {{ image.file }} %}">
                 {% unless image.is_video %}
                     <figure>
-                        <img src="{% link {{ image.file }} %}"/>
+                        <img src="{% link {{ image.file }} %}" {{ image.file | image_srcset_width, 240 }}/>
                         {% if image.label %}
                             <figcaption>{{ image.label }}</figcaption>
                         {% endif %}
