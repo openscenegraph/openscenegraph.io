@@ -27,7 +27,7 @@
                 {%- if groupIndex -%}
                   <a class="page-link" href="{{ groupIndex.url | relative_url }}">{{ headerGroup.name }}</a>
                 {%- else -%}
-                  <a class="page-link dummy" href="#">{{ headerGroup.name }}</a>
+                  <span class="page-link dummy">{{ headerGroup.name }}</span>
                 {%- endif -%}
                 <div class="group-contents">
                   {%- for my_page in headerGroup.items -%}
