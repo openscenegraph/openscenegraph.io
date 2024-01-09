@@ -75,7 +75,6 @@ archive_screenshots:
   fmprofil:
     article: _posts/archive/gallery/use-cases/2015-07-20-189-fm-profil.md
     images:
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/2D-3D-small.png
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/2D-3D.png
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/3d-ansicht.png
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/3d-laserscan.png
@@ -117,13 +116,10 @@ archive_screenshots:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.png
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Building.png
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Car.png
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.Detail.png
   Pirates:
     article: _posts/archive/gallery/use-cases/2011-11-28-77-diosoft-pirates.md
     images:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pirates/pirates-2005-06-01-01.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pirates/vsig_images/pirates-2005-06-01-01_387_290_90.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pirates/vsig_thumbs/pirates-2005-06-01-01_89_66_80.jpg
   Pok3D:
     images:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/Pok3D/pok3d1.jpg
@@ -184,15 +180,10 @@ archive_screenshots:
     article: _posts/archive/gallery/use-cases/2010-01-18-91-tsogu.md
     images:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/111111.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/gammer.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu2.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu3.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu4.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu5.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu6.2.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu6.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu7.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/TSOGU/tsogu8.jpg
   TerrainView:
     article: _posts/archive/gallery/use-cases/2012-01-02-84-terrainview.md
     images:
@@ -212,11 +203,6 @@ archive_screenshots:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/neglect_rehab_small.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/spider_small.jpg
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_images/easyadl_387_218_90.gif
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_images/neglect_rehab_small_387_580_90.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_images/spider_small_387_241_90.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_thumbs/easyadl_89_50_80.gif
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_thumbs/neglect_rehab_small_44_66_80.jpg
-    - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VRlab/vsig_thumbs/spider_small_89_55_80.jpg
   VSG:
     images:
     - https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/VSG/th_vsg_12.jpg
