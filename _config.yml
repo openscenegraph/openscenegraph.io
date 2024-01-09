@@ -60,3 +60,4 @@ sass:
 exclude:
   - utility-scripts/
   - vendor/
+  - readme.md
