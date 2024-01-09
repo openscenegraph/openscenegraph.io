@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {%- assign groupedPages = site.pages | group_by_exp: "page", "page.header_group | default: page.title" -%}
+    {%- assign groupedPages = site.pages | where_exp: "page", "page.hidden != true" | group_by_exp: "page", "page.header_group | default: page.title" -%}
     {%- assign groupedPages = groupedPages | sort: "name" | where_exp: "group", "group.name != nil" -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">

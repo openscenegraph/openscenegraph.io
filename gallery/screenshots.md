@@ -235,10 +235,11 @@ archive_screenshots:
 
 ---
 
-Screen shots of OpenSceneGraph demos and end user applications that use the OpenSceneGraph
+Screenshots of OpenSceneGraph demos and end user applications that use the OpenSceneGraph.
+To upload screenshots for your OSG-based application, follow [these instructions]({% link gallery/readme.md %}).
 
 ---
-
+<!-- 'Modern' screenshots -->
 {% for post in site.categories.gallery %}
 {% if post.archive %}
   {% continue %}
@@ -257,6 +258,7 @@ Screen shots of OpenSceneGraph demos and end user applications that use the Open
 {% include image-gallery.html image_list=post.images %}
 {% endfor %}
 
+<!-- Archive screenshots -->
 {% for album in page.archive_screenshots -%}
 {%- assign albumName = album | first -%}
 {%- assign albumObject = album | last %}
