@@ -6,7 +6,7 @@ hidden: true
 {% raw %}
 To upload screenshots to the new OpenSceneGraph site, simply follow these instructions:
 
-1. Fork and clone [https://github.com/openscenegraph/osg-website-replacement](https://github.com/openscenegraph/osg-website-replacement).
+1. Fork and clone [https://github.com/openscenegraph/openscenegraph.io](https://github.com/openscenegraph/openscenegraph.io).
    GitHub have a [guide for absolute beginners](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) if you don't know how to do this.
 1. Create a Markdown file with today's date and your (lowercased) project/company name in its filename in `gallery/_posts`.
    The format is effectively `yyyy-mm-dd-your-name-here.md`.
@@ -36,6 +36,6 @@ To upload screenshots to the new OpenSceneGraph site, simply follow these instru
 1. Create a Pull Request for the branch on the fork to bring it into the main repo.
 1. We'll review your proposal and if appropriate, publish it to the site.
 
-Feel free to take a look at [the existing posts](https://github.com/openscenegraph/osg-website-replacement/tree/main/gallery/_posts) for examples to copy.
+Feel free to take a look at [the existing posts](https://github.com/openscenegraph/openscenegraph.io/tree/main/gallery/_posts) for examples to copy.
 
 {% endraw %}

@@ -48,7 +48,7 @@ Qt4 reached its End of Life in 2015.
 
 ### This website
 
-The source code for this website is hosted at [https://github.com/openscenegraph/osg-website-replacement](https://github.com/openscenegraph/osg-website-replacement).
+The source code for this website is hosted at [https://github.com/openscenegraph/openscenegraph.io](https://github.com/openscenegraph/openscenegraph.io).
 It has now been migrated to the main OpenSceneGraph GitHub organisation but is still unfinished.
 
 ## Third-party repositories
