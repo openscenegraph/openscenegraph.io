@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/" rel="alternate" type="text/html" /><updated>2024-03-07T18:50:49+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/feed.xml</id><title type="html">OpenSceneGraph</title><subtitle>The OpenSceneGraph is an open source high performance 3D graphics toolkit, used by application developers in fields such as visual simulation, games, virtual reality, scientific visualization and modelling. Written entirely in Standard C++ and OpenGL, it runs on all Windows platforms, OSX, GNU/Linux, IRIX, Solaris, HP-Ux, AIX and FreeBSD operating systems. The OpenSceneGraph is now well established as a robust scene graph technology, used widely in the vis-sim, space, scientific, oil-gas, games and virtual reality industries. However, for new projects, we recommend the OSG's successor project, &lt;a href=&quot;https://vsg-dev.github.io/vsg-dev.io/&quot;&gt;VulkanSceneGraph&lt;/a&gt; for never-before-attainable performance and access to the latest hardware features with the same battle-tested DNA as the OSG.</subtitle><entry><title type="html">OpenMW</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/gallery/2023/12/22/openmw.html" rel="alternate" type="text/html" title="OpenMW" /><published>2023-12-22T00:00:00+00:00</published><updated>2023-12-22T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/gallery/2023/12/22/openmw</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/gallery/2023/12/22/openmw.html">&lt;p&gt;OpenMW is a Free and Open Source reimplementation of the engine of the hit 2002 role playing game &lt;em&gt;The Elder Scrolls III: Morrowind&lt;/em&gt;.
+As well as aiming to support all features of the original engine (and eventually all its successors), OpenMW boasts a range of graphical improvements, including more modern shader effects, massive viewing distances, improved shadows and lighting, and a flexible post processing framework.&lt;/p&gt;
+
+&lt;p&gt;In addition to all this, OpenMW includes an editor for game mods, or even entirely new games free from any IP restrictions, such as the OpenMW Example Suite.&lt;/p&gt;
+
+&lt;p&gt;The project’s website is &lt;a href=&quot;https://openmw.org/&quot;&gt;openmw.org&lt;/a&gt;, and development happens on &lt;a href=&quot;https://gitlab.com/OpenMW/openmw&quot;&gt;GitLab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A third-party project to port OpenMW to the VulkanSceneGraph is underway &lt;a href=&quot;https://github.com/vsgopenmw-dev/vsgopenmw&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul class=&quot;image-album&quot;&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/screenshot035.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/screenshot035.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/screenshot035-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot035-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot035-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot035-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot035-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot035-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;A sunset with volumetric clouds and reflections in water.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/screenshot028.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/screenshot028.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/screenshot028-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot028-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot028-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot028-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot028-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/screenshot028-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;A sunrise over fan-made city Old Ebonheart with user-provided lens flare post-process effect.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/image2.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/image2.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/image2-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/image2-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/image2-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/image2-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/image2-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/image2-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;Detailed water by day...&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/image.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/image.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/image-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/image-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/image-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/image-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/image-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/image-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;And by night, including response to weather.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/OpenMW_2023-12-15_16-41-59.mp4&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;div class=&quot;video-thumbnail&quot;&gt;
+                            &lt;img src=&quot;/openscenegraph.io/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59.png&quot; srcset=&quot;/openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-170w.png 0.707x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-240w.png 1.0x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-339w.png 1.414x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-480w.png 2.0x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-679w.png 2.828x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-15_16-41-59-960w.png 4.0x&quot; /&gt;
+                        &lt;/div&gt;
+                        
+                            &lt;figcaption&gt;Volumetric fog billowing over a lake.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/OpenMW_2023-12-16_23-12-00.mp4&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;div class=&quot;video-thumbnail&quot;&gt;
+                            &lt;img src=&quot;/openscenegraph.io/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00.png&quot; srcset=&quot;/openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-170w.png 0.707x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-240w.png 1.0x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-339w.png 1.414x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-480w.png 2.0x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-679w.png 2.828x, /openscenegraph.io/srcset/thumbnails/img/gallery/openmw/OpenMW_2023-12-16_23-12-00-960w.png 4.0x&quot; /&gt;
+                        &lt;/div&gt;
+                        
+                            &lt;figcaption&gt;Entering Balmora&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-09-10_22-47-20.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-09-10_22-47-20.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-09-10_22-47-20-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;Depth of field.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-07-23_15-17-00.jpg&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-07-23_15-17-00.jpg&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-170w.jpg 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-240w.jpg 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-339w.jpg 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-480w.jpg 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-679w.jpg 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-07-23_15-17-00-960w.jpg 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;Experimental physically-based lighting shader.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-01-23_14-36-43.jpg&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/openmw_2023-01-23_14-36-43.jpg&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-170w.jpg 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-240w.jpg 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-339w.jpg 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-480w.jpg 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-679w.jpg 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/openmw_2023-01-23_14-36-43-960w.jpg 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;In-game post-process configuration menu allows users to tweak visuals to their heart's content.&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20240108_192453.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20240108_192453.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240108_192453-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;OpenMW's editor, OpenMW-CS&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20231221_151332.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20231221_151332.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20231221_151332-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;OpenMW's editor, OpenMW-CS&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20240105_030703.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_20240105_030703.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_20240105_030703-960w.png 4.0x&quot; /&gt;
+                        
+                            &lt;figcaption&gt;OpenMW's editor, OpenMW-CS&lt;/figcaption&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-12-19.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-12-19.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-12-19-960w.png 4.0x&quot; /&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-20-47.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-20-47.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-20-47-960w.png 4.0x&quot; /&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-59-02.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_14-59-02.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_14-59-02-960w.png 4.0x&quot; /&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+        &lt;li&gt;
+            &lt;a href=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_15-04-41.png&quot;&gt;
+                
+                    &lt;figure&gt;
+                        &lt;img src=&quot;/openscenegraph.io/img/gallery/openmw/Screenshot_2023-10-29_15-04-41.png&quot; srcset=&quot;/openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-170w.png 0.707x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-240w.png 1.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-339w.png 1.414x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-480w.png 2.0x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-679w.png 2.828x, /openscenegraph.io/srcset/img/gallery/openmw/Screenshot_2023-10-29_15-04-41-960w.png 4.0x&quot; /&gt;
+                        
+                    &lt;/figure&gt;
+                
+            &lt;/a&gt;
+        &lt;/li&gt;
+    
+&lt;/ul&gt;</content><author><name></name></author><category term="gallery" /><summary type="html">OpenMW is a Free and Open Source reimplementation of the engine of the hit 2002 role playing game The Elder Scrolls III: Morrowind. As well as aiming to support all features of the original engine (and eventually all its successors), OpenMW boasts a range of graphical improvements, including more modern shader effects, massive viewing distances, improved shadows and lighting, and a flexible post processing framework.</summary></entry><entry><title type="html">ObjexxSISAME</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/209-objexxsisame.html" rel="alternate" type="text/html" title="ObjexxSISAME" /><published>2016-06-18T00:00:00+00:00</published><updated>2016-06-18T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/209-objexxsisame</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/209-objexxsisame.html">&lt;p&gt;ObjexxSISAME is a structural modeling tool developed by &lt;a href=&quot;http://objexx.com&quot;&gt;Objexx Engineering&lt;/a&gt; that is focused on large-deformation and impact events. Originally developed for vehicle (car and truck) crash modeling it now supports a wide range of structures such as bridges and buildings and non-impact events such as earthquakes. A unique aspect of ObjexxSISAME is that it performs both forward (simulation) modeling and inverse modeling, where the optimal structure to achieve a specified behavior is found. The inverse modeling formulation avoids inefficient global search methods by using a direct constrained quadratic solver core.&lt;/p&gt;
+
+&lt;p&gt;ObjexxSISAME uses OpenSceneGraph for real-time visualization, both during model construction and simulation. During inverse (design) modeling runs a semi-transparent view of the target motion is displayed along with the optimal design motion. The OSG view is integrated into a Qt GUI and can also be displayed in a stand-alone window in a non-GUI run mode. OpenSceneGraph was chosen for the visual quality and performance it provides and for the thriving and helpful OSG community.&lt;/p&gt;
+
+&lt;p&gt;ObjexxSISAME runs on Windows, Linux, and macOS. Objexx builds OSG on Windows with the latest Visual C++ and Intel C++ and Qt releases and makes these binaries available to the OpenSceneGraph community at &lt;a href=&quot;http://objexx.com/OpenSceneGraph.html&quot;&gt;http://objexx.com/OpenSceneGraph.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information visit &lt;a href=&quot;http://objexx.com/ObjexxSISAME.html&quot;&gt;http://objexx.com/ObjexxSISAME.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Building.png&quot; alt=&quot;ObjexxSISAME Building Impact Model&quot; title=&quot;ObjexxSISAME Building Impact Model&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Bridge.png&quot; alt=&quot;ObjexxSISAME Bridge Impact Model&quot; title=&quot;ObjexxSISAME Bridge Impact Model&quot; /&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/ObjexxSISAME.Car.png&quot; alt=&quot;ObjexxSISAME Car Crash Model&quot; title=&quot;ObjexxSISAME Car Crash Model&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">ObjexxSISAME is a structural modeling tool developed by Objexx Engineering that is focused on large-deformation and impact events. Originally developed for vehicle (car and truck) crash modeling it now supports a wide range of structures such as bridges and buildings and non-impact events such as earthquakes. A unique aspect of ObjexxSISAME is that it performs both forward (simulation) modeling and inverse modeling, where the optimal structure to achieve a specified behavior is found. The inverse modeling formulation avoids inefficient global search methods by using a direct constrained quadratic solver core.</summary></entry><entry><title type="html">FM Profil</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/189-fm-profil.html" rel="alternate" type="text/html" title="FM Profil" /><published>2015-07-20T00:00:00+00:00</published><updated>2015-07-20T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/189-fm-profil</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/189-fm-profil.html">&lt;p&gt;&lt;strong&gt;FM&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;PROFIL&lt;/em&gt;&lt;/strong&gt; is a graphic and calculation program for the creation of overhead line and cable sections.The length profiles are generated on the basis of measurement data from the terrestrial survey or aerial survey.  From the profile data 2D and OSG-based 3D graphics is generated.&lt;/p&gt;
+
+&lt;p&gt;Get more information from our website &lt;a href=&quot;http://www.freileitungsmanagement.de/88.0.html&quot;&gt;www.freileitungsmanagement.de&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;3d-view-with-sky&quot;&gt;3D View with Sky&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/3d-ansicht.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;3d-view-with-ortho-photo&quot;&gt;3D View with ortho photo&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/3d-orthophoto.png&quot; alt=&quot;3d view with orthophoto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;3d-view-with-laser-scanning-data&quot;&gt;3D View with laser scanning data&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/3d-laserscan.png&quot; alt=&quot;3d view with laserscan data&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2d-and-3d-view&quot;&gt;2D and 3D View&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/fmprofil/2D-3D.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">FM PROFIL is a graphic and calculation program for the creation of overhead line and cable sections.The length profiles are generated on the basis of measurement data from the terrestrial survey or aerial survey.  From the profile data 2D and OSG-based 3D graphics is generated. Get more information from our website www.freileitungsmanagement.de</summary></entry><entry><title type="html">Interactive game on Tencent Game Carnival (TGC) 2014</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/170-interactive-game-on-tencent-game-carnival-tgc-2014.html" rel="alternate" type="text/html" title="Interactive game on Tencent Game Carnival (TGC) 2014" /><published>2014-12-11T00:00:00+00:00</published><updated>2014-12-11T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/170-interactive-game-on-tencent-game-carnival-tgc-2014</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/170-interactive-game-on-tencent-game-carnival-tgc-2014.html">&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Interactive game on Tencent Game Carnival (TGC) 2014. Attenders wave a real property sword and thus drive the virtual player to fight with the evil dragon. Scenery is provided by the Monster Hunter team of Tencent/Capcom. And all rendering work (lighting, ambient occlusion, character skinning and realtime shadows) and game system honored by OpenSceneGraph. :-)&lt;/p&gt;
+
+&lt;p&gt;You will find difference between the original model and rendered one as below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare1.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/compare2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And more game pictures here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/game4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/live.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy~~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/stats.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html"> </summary></entry><entry><title type="html">Remo 3D</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/152-remo-3d.html" rel="alternate" type="text/html" title="Remo 3D" /><published>2014-01-07T00:00:00+00:00</published><updated>2014-01-07T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/152-remo-3d</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/152-remo-3d.html">&lt;p&gt;Remo 3D™ is an effective tool for creating and modifying 3D models intended for realtime visualization. Remo 3D’s primary file format is OpenFlight® and it allows for importing from and exporting to different file formats. Remo 3D is developed by Swedish company Remograph and was one of the first commercial products based on OpenSceneGraph. It first reached market back in 2005 and the latest version is 2.4, released in January 2014. Find out more about Remo 3D on our website: &lt;a href=&quot;http://www.remograph.com/&quot;&gt;http://www.remograph.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.remograph.com/remo3d_screenshot14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">Remo 3D™ is an effective tool for creating and modifying 3D models intended for realtime visualization. Remo 3D’s primary file format is OpenFlight® and it allows for importing from and exporting to different file formats. Remo 3D is developed by Swedish company Remograph and was one of the first commercial products based on OpenSceneGraph. It first reached market back in 2005 and the latest version is 2.4, released in January 2014. Find out more about Remo 3D on our website: http://www.remograph.com/.</summary></entry><entry><title type="html">Digital city &amp;amp; traffic of Xining</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/126-digital-city-traffic-of-xining.html" rel="alternate" type="text/html" title="Digital city &amp;amp; traffic of Xining" /><published>2013-03-29T00:00:00+00:00</published><updated>2013-03-29T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/126-digital-city-traffic-of-xining</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/126-digital-city-traffic-of-xining.html">&lt;p&gt;Rendered with VDSM &amp;amp; EffectCompositor. It shows the entire city of Xining, China P. R., as well as the dynamic traffic data.&lt;/p&gt;
+
+&lt;p&gt;The final city models size is ~23GB, designed with four-level paged LODs. It includes 215 main blocks of the Xining city, about 200 km2.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/xining_8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">Rendered with VDSM &amp;amp; EffectCompositor. It shows the entire city of Xining, China P. R., as well as the dynamic traffic data.</summary></entry><entry><title type="html">Digital city of Beijing</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/76-digital-city-of-beijing-with-real-time-illumination.html" rel="alternate" type="text/html" title="Digital city of Beijing" /><published>2012-11-14T00:00:00+00:00</published><updated>2012-11-14T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/76-digital-city-of-beijing-with-real-time-illumination</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/76-digital-city-of-beijing-with-real-time-illumination.html">&lt;p&gt;Rendered with VDSM &amp;amp; EffectCompositor. SilverLining is also used for drawing sky and cloud.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/wiki/xarray/osgRecipes/images/cityeffect6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">Rendered with VDSM &amp;amp; EffectCompositor. SilverLining is also used for drawing sky and cloud.</summary></entry><entry><title type="html">gvSIG 3D</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/133-gvsig-3d.html" rel="alternate" type="text/html" title="gvSIG 3D" /><published>2012-10-21T00:00:00+00:00</published><updated>2012-10-21T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/133-gvsig-3d</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/133-gvsig-3d.html">&lt;p&gt;gvSIG 3D is a extension for visualization and management of three-dimensional views in the GPL software gvSIG. It allows the creation of 3D Views, XYZ-projected as well as spherical (planetary). Local and remote data sources can be loaded as layers on it, and be displayed using most of the options available in 2D-gvSIG like transparency, labeling, legends, etc.&lt;/p&gt;
+
+&lt;p&gt;Features&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3D object layer type.&lt;/li&gt;
+  &lt;li&gt;3D Point Clouds.&lt;/li&gt;
+  &lt;li&gt;3D navigation tools.&lt;/li&gt;
+  &lt;li&gt;Force north orientation.&lt;/li&gt;
+  &lt;li&gt;Zoom to layer or zoom All.&lt;/li&gt;
+  &lt;li&gt;Interactive layer transparency control.&lt;/li&gt;
+  &lt;li&gt;3D Advanced Symbology including 3D objects as a symbol.&lt;/li&gt;
+  &lt;li&gt;Support for Extrusion legend.&lt;/li&gt;
+  &lt;li&gt;Advanced visualization tools (Stereoscopy and FullScreen Option).&lt;/li&gt;
+  &lt;li&gt;3D model edition.&lt;/li&gt;
+  &lt;li&gt;cityGML models.&lt;/li&gt;
+  &lt;li&gt;Selection and Info by point support.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Community/gvSIG3D/sierra_nevada.jpg&quot; alt=&quot;sierra_nevada.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Community/gvSIG3D/Powerwall.png&quot; alt=&quot;Powerwall.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Community/gvSIG3D/ermita.png&quot; alt=&quot;ermita.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Community/gvSIG3D/catedral2.jpg&quot; alt=&quot;catedral2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Community/gvSIG3D/edicion.png&quot; alt=&quot;edicion.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">gvSIG 3D is a extension for visualization and management of three-dimensional views in the GPL software gvSIG. It allows the creation of 3D Views, XYZ-projected as well as spherical (planetary). Local and remote data sources can be loaded as layers on it, and be displayed using most of the options available in 2D-gvSIG like transparency, labeling, legends, etc.</summary></entry><entry><title type="html">RIEER</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/24-research-institute-of-electronic-educational-resources.html" rel="alternate" type="text/html" title="RIEER" /><published>2012-04-30T00:00:00+00:00</published><updated>2012-04-30T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/24-research-institute-of-electronic-educational-resources</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/24-research-institute-of-electronic-educational-resources.html">&lt;p&gt;&lt;a href=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/undefined/index.html&quot;&gt;OpenSceneGraph&lt;/a&gt; technology is used to power the realtime graphics of all computer-base simulators.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/med.png&quot; alt=&quot;med.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer2.png&quot; alt=&quot;rieer2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer4.png&quot; alt=&quot;rieer4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer6.png&quot; alt=&quot;rieer6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer1.png&quot; alt=&quot;rieer1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer7.jpg&quot; alt=&quot;rieer7.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/RI/rieer3.png&quot; alt=&quot;rieer3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">OpenSceneGraph technology is used to power the realtime graphics of all computer-base simulators.</summary></entry><entry><title type="html">Foundation of the Hellenic World</title><link href="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/25-foundation-of-the-hellenic-world.html" rel="alternate" type="text/html" title="Foundation of the Hellenic World" /><published>2012-04-30T00:00:00+00:00</published><updated>2012-04-30T00:00:00+00:00</updated><id>https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/25-foundation-of-the-hellenic-world</id><content type="html" xml:base="https://openscenegraph.github.io/openscenegraph.io/openscenegraph.io/archive/gallery/use-cases/25-foundation-of-the-hellenic-world.html">&lt;p&gt;&lt;a href=&quot;http://www.openscenegraph.org/projects/osg/wiki/OpenSceneGraph&quot;&gt;OpenSceneGraph&lt;/a&gt; technology is used to power the realtime graphics of all VR sytems. The OSG scene graph was enhanced with proprietary IP nodekit&lt;/p&gt;
+
+&lt;p&gt;* To enable cluster rendering and sychnonization&lt;/p&gt;
+
+&lt;p&gt;* Stereo Projection with Head/Hand tracking on multisurface VR Systems&lt;/p&gt;
+
+&lt;p&gt;* 7-1 Surround Sound support&lt;/p&gt;
+
+&lt;p&gt;* Support for a multitude of tracking devices in an easy to use way and specific dome input devices&lt;/p&gt;
+
+&lt;p&gt;* XSI export plugins&lt;/p&gt;
+
+&lt;p&gt;* A proprietary scripting language for Rapid Prototyping VR environments&lt;/p&gt;
+
+&lt;p&gt;* Robust Parallel Split Shadow Maps for large Environments.&lt;/p&gt;
+
+&lt;p&gt;* GPU skinning&lt;/p&gt;
+
+&lt;p&gt;* Easy to use high level shader framework based on GLSL.&lt;/p&gt;
+
+&lt;h3 id=&quot;screenshots&quot;&gt;&lt;strong&gt;Screenshots&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Below are screenshots fo our most recent productions, which are available on all VR sytems. Images are courtesy of the Foundation of the Hellenic World ©.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Heruls1.png&quot; alt=&quot;Heruls1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Heruls2.png&quot; alt=&quot;Heruls2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Miletus2.png&quot; alt=&quot;Miletus2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Miletus1.png&quot; alt=&quot;Miletus1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Heruls3.png&quot; alt=&quot;Heruls3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Priene_shot3.png&quot; alt=&quot;Priene_shot3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Priene_shot1.png&quot; alt=&quot;Priene_shot1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Priene_shot5.png&quot; alt=&quot;Priene_shot5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Screenshot-11.png&quot; alt=&quot;Screenshot-11.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Priene_shot4.png&quot; alt=&quot;Priene_shot4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Screenshot-7.png&quot; alt=&quot;Screenshot-7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/capture00037.png&quot; alt=&quot;capture00037.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/capture00394.png&quot; alt=&quot;capture00394.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/capture00418.png&quot; alt=&quot;capture00418.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://openscenegraph.github.io/OpenSceneGraphDotComBackup/OpenSceneGraph/www.openscenegraph.com/images/gallery/Screenshots/FHW/Screenshot-9.png&quot; alt=&quot;Screenshot-9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;more-information&quot;&gt;&lt;strong&gt;More information&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.fhw.gr/&quot;&gt;The Foundations&lt;/a&gt; mission is the preservation and dissemination of Hellenic history and tradition, the creation of an awareness of the universal dimension of Hellenism and the promotion of its contribution to cultural evolution. Its aim is the understanding of the past as a point of reference for the formation of the present and future so that contemporary thought may once again be inspired by the Hellenic spirit. In order to achieve this mission, the Foundation is actively involved with the dissemination of Hellenic culture and history, placing particular emphasis to Hellenism all over the world. To achieve this mission the Hellenic Cosmos Cultural Center was created.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.hellenic-cosmos.gr/&quot;&gt;Hellenic Cosmos cultural centre&lt;/a&gt; of the Foundation of the Hellenic World (FHW), at 254 Pireos street, is one of the most perfect museum areas of Athens. It lies on a former industrial ribbon development in an area of approximately 60,000m2, on an axis between Athens and Piraeus, where memory of Athens past meets the city’s modern identity. It is an ultra modern, living museum of Hellenism, across the sciences, arts and every aspect of society: it aims to be a source of information that satisfies the needs of contemporary ‘society of knowledge”.&lt;/p&gt;
+
+&lt;p&gt;The innovative technology of Virtual Reality is used by the Foundation of the Hellenic World for the promotion of Hellenic history and culture. In the systems that are installed at Hellenic Cosmos visitors of all ages, with special stereoscopic glasses travel through time, to monuments and sites of our cultural heritage, and have the experience of being immersed in the Virtual world.&lt;br /&gt;
+ The &lt;a href=&quot;http://vr.hellenic-cosmos.gr/&quot;&gt;VR system&lt;/a&gt; that are currenlty open to the public are:&lt;/p&gt;
+
+&lt;p&gt;1) The “Tholos”, a 132 seat DOME Stereo projection system with optical tracking, where each seat is equiped with buttons and joystick controller for user interaction. &lt;a href=&quot;http://www.tholos254.gr/&quot;&gt;http://www.tholos254.gr&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2) The “Kivotos”, a CAVE Stereo system with Head and Hand tracking. &lt;a href=&quot;http://vr.ime.gr/&quot;&gt;http://vr.ime.gr/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3) The “Virtual Cinema”, a portable passive stereo front projection projection system. &lt;a href=&quot;http://vr.ime.gr/&quot;&gt;http://vr.ime.gr/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="gallery" /><category term="use-cases" /><summary type="html">OpenSceneGraph technology is used to power the realtime graphics of all VR sytems. The OSG scene graph was enhanced with proprietary IP nodekit</summary></entry></feed>
