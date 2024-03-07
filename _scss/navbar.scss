@@ -1,3 +1,10 @@
+@include media-query($on-palm) {
+    .site-title {
+        // avoid the menu button
+        padding-right: 51px;
+    }
+}
+
 .site-nav {
     .page-link, .page-group {
         display: inline-block;
