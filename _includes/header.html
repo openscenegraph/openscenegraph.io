@@ -5,7 +5,7 @@
     {%- assign groupedPages = groupedPages | sort: "name" | where_exp: "group", "group.name != nil" -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <img src="{{ 'img/osg-logo.gif' | relative_url }}" alt="OpenSceneGraph">
+      <img src="{{ 'img/osg-left-no-shadow-opt.svg' | relative_url }}" alt="OpenSceneGraph">
     </a>
 
     {%- if titles_size > 0 -%}
